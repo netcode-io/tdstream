@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Contoso</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description></Description>
+    <RepositoryUrl>https://github.com/netcode-io/tdstream</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\freetds.net\tds.net\tds.net.csproj" />
+  </ItemGroup>
+
+</Project>
